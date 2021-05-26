@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                width:99%;
+            }
+            
+            li {
+                float: left;
+                
+            }
+            
+            li a  {
+                color: white;
+                text-decoration: none;
+                display: block;  
+                padding: 14px 16px;
+                text-align: center; 
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+            
+            .active {
+                background-color: #4CAF50;
+            }
+        </style>
+    </head>
+    <body>
+        <ul style="position: fixed;">
+            <li><a class=active href="#home">Home</a></li>
+            <li><a href="#classes">Buy</a></li>
+            <li><a href="#files">Sell</a></li>
+            <li><a href="#files">Rent</a></li>
+           
+            <li style="float:right"><a href="#about">About</a></li>
+          </ul>
+    </body>
+</html>

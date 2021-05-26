@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                width:99%;
+            }
+            
+            li {
+                float: left;
+                
+            }
+            
+            li a  {
+                color: white;
+                text-decoration: none;
+                display: block;  
+                padding: 14px 16px;
+                text-align: center; 
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+            
+            .active {
+                background-color: #4CAF50;
+            }
+            body {font-family: cursive, sans-serif, Courier, monospace;}
+            
+            form {border: 10px solid #cacaca;
+                    height: 90%;
+                    width: 90%;}
+
+            input[type=text], input[type=password] {
+              width: 35%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 2px solid #ccc;
+              box-sizing: border-box;
+            }
+
+            button {
+              background-color: #04AA6D;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 46%;
+            }
+
+            button:hover {
+              opacity: 0.8;
+            }
+
+            .cancelbtn {
+              width: auto;
+              padding: 10px 18px;
+              background-color: #f44336;
+            }
+
+            .container {
+              padding: 16px;
+            }
+
+            span.psw {
+              /*float: right;*/
+              padding-top: 16px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul style="position: fixed;">
+            <li><a class=active href="#home">Home</a></li>
+            <li><a href="#classes">Buy</a></li>
+            <li><a href="#files">Sell</a></li>
+            <li><a href="#files">Rent</a></li>
+           
+            <li style="float:right"><a href="#about">About</a></li>
+          </ul>
+
+          <form action="/action_page.php" method="post">
+            <br><br><br><br><br> 
+            <h2 style="text-align: center;">Hold My Home</h2>
+ 
+         <div class="container" >
+             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             <label for="uname"><b>Username</b></label>
+             <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             <label for="psw"><b>Password</b></label>&nbsp;
+             <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             <button type="submit">Login</button><br><br>
+             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             <label>
+                 <input type="checkbox" checked="checked" name="remember"> Remember me
+             </label>
+         </div>
+ 
+         <div class="container" >
+             <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             <button type="button" class="cancelbtn">Cancel</button>
+             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+             <span class="psw"><a href="#">Forgot password?</a></span>
+         </div>
+         </form>
+
+    </body>
+</html>

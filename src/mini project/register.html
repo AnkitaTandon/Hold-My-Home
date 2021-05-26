@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Form</title>
+</head>
+<body>
+    <h1 align="center" style="color:aqua"> Sign Up Page</h1>
+    <form>
+    <table style="border:'none'" height='600px' width='650px' bgcolor='#FFF7EB' align='center' cellpadding='10'>
+        <tr>
+            <td colspan="4" align="center" bgcolor="#FFE5BC"><b>USER LOGIN</b></td>
+           
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">NAME</td>
+            <td colspan="2"><input type="text" name="namefield" width="800" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">PHONE NUMBER</td>
+            <td colspan="2"><input type="number" name="numfield" width="800" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">EMAIL</td>
+            <td colspan="2"><input type="email" name="mailfield" width="800" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">GENDER</td>
+            <td colspan="2"><input type="radio" name="gendername" title="male"width="800" required><label for="male">Male</label><input type="radio" name="gendername" title="female"width="800"><label for="female">Female</label><input type="radio" name="gendername" title="others"width="800"><label for="others">Others</label></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">CHOOSE YOUR COURSE</td>
+            <td colspan="2"><select id="course" name="coursefield"><option value="def">Choose your Course</option><option value="CSE">Computer Science Engineering</option><option value="ECE">Electronics and Communication Engineering</option><option value="EEE">Electrical and Electronics Engineering</option><option value="oth">Others</option></select></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">Date of Birth</td>
+            <td colspan="2"><input type="date" name="datetimefield" required></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">RATE MY FORM</td>
+            <td colspan="2"><input type="range" name="rangefield"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" cellpadding="15">FEEDBACK</td>
+            <td colspan="2"><textarea name="message" rows="5" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="reset" name="resetfield"></td>
+            <td colspan="2" align="center"><input type="submit" name="submitfield"></td>
+        </tr>
+        <tr>
+            <td colspan="4"<p style="color: red;"><center>Already have an account <a href="login.html">Login here!</a></center></p></tr>
+        </tr>
+    </table></form>
+</body>
+</html>
