@@ -1,2 +1,5 @@
 One of the above folder is stage 1 of the project,
 while the other is stage 2 which also requires mysql database via php to store the values.
+
+
+The website starts with the Login page.
