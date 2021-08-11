@@ -2,4 +2,4 @@
 A web frameworks e-commerce project to bridge the gap between the real-estate owners and sellers.
 
 
-## Work in Progress! 
+## Download the lastest release `v1` to learn the project
